@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D8D6D7E1B62BE5F0098F391 /* Version Tracking Notes.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D6D7D1B62BE5F0098F391 /* Version Tracking Notes.rtf */; };
+		4DA958561B40E254003D0342 /* FalloutVaultLogo.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4DA958551B40E254003D0342 /* FalloutVaultLogo.icns */; };
+		4DA958581B40E264003D0342 /* VBCircle.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4DA958571B40E264003D0342 /* VBCircle.icns */; };
+		4DC0DDFF1B4086FC0031C1DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0DDFE1B4086FC0031C1DD /* AppDelegate.swift */; };
+		4DC0DE011B4086FC0031C1DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC0DE001B4086FC0031C1DD /* Images.xcassets */; };
+		4DC0DE041B4086FC0031C1DD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DC0DE021B4086FC0031C1DD /* MainMenu.xib */; };
+		4DC0DE101B4086FC0031C1DD /* DateConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0DE0F1B4086FC0031C1DD /* DateConverterTests.swift */; };
+		4DC0DE1C1B4087340031C1DD /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0DE1A1B4087340031C1DD /* MainWindowController.swift */; };
+		4DC0DE1D1B4087340031C1DD /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DC0DE1B1B4087340031C1DD /* MainWindowController.xib */; };
+		4DC0DE241B408C300031C1DD /* dteConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0DE231B408C300031C1DD /* dteConverter.m */; };
+		4DC1D35E1B40B14900837C2F /* VBCircle016.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DC1D3581B40B14900837C2F /* VBCircle016.png */; };
+		4DC1D35F1B40B14900837C2F /* VBCircle032.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DC1D3591B40B14900837C2F /* VBCircle032.png */; };
+		4DC1D3601B40B14900837C2F /* VBCircle064.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DC1D35A1B40B14900837C2F /* VBCircle064.png */; };
+		4DC1D3611B40B14900837C2F /* VBCircle128.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DC1D35B1B40B14900837C2F /* VBCircle128.png */; };
+		4DC1D3621B40B14900837C2F /* VBCircle256.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DC1D35C1B40B14900837C2F /* VBCircle256.png */; };
+		4DC1D3631B40B14900837C2F /* VBCircle512.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DC1D35D1B40B14900837C2F /* VBCircle512.png */; };
+		4DF8200C1B40DD5800EF430E /* FalloutVaultLogo016.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DF820061B40DD5800EF430E /* FalloutVaultLogo016.png */; };
+		4DF8200D1B40DD5800EF430E /* FalloutVaultLogo032.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DF820071B40DD5800EF430E /* FalloutVaultLogo032.png */; };
+		4DF8200E1B40DD5800EF430E /* FalloutVaultLogo064.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DF820081B40DD5800EF430E /* FalloutVaultLogo064.png */; };
+		4DF8200F1B40DD5800EF430E /* FalloutVaultLogo128.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DF820091B40DD5800EF430E /* FalloutVaultLogo128.png */; };
+		4DF820101B40DD5800EF430E /* FalloutVaultLogo256.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DF8200A1B40DD5800EF430E /* FalloutVaultLogo256.png */; };
+		4DF820111B40DD5800EF430E /* FalloutVaultLogo512.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DF8200B1B40DD5800EF430E /* FalloutVaultLogo512.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DC0DE0A1B4086FC0031C1DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DC0DDF11B4086FC0031C1DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DC0DDF81B4086FC0031C1DD;
+			remoteInfo = DateConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D8D6D7D1B62BE5F0098F391 /* Version Tracking Notes.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = "Version Tracking Notes.rtf"; path = "Supporting Files/Version Tracking Notes.rtf"; sourceTree = "<group>"; };
+		4DA958551B40E254003D0342 /* FalloutVaultLogo.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = FalloutVaultLogo.icns; path = "Supporting Files/Images/FalloutVaultLogo.icns"; sourceTree = "<group>"; };
+		4DA958571B40E264003D0342 /* VBCircle.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = VBCircle.icns; path = "Supporting Files/Images/VBCircle.icns"; sourceTree = "<group>"; };
+		4DC0DDF91B4086FC0031C1DD /* DateConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC0DDFD1B4086FC0031C1DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Supporting Files/Info.plist"; sourceTree = "<group>"; };
+		4DC0DDFE1B4086FC0031C1DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DC0DE001B4086FC0031C1DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4DC0DE031B4086FC0031C1DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4DC0DE091B4086FC0031C1DD /* DateConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC0DE0E1B4086FC0031C1DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC0DE0F1B4086FC0031C1DD /* DateConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateConverterTests.swift; sourceTree = "<group>"; };
+		4DC0DE1A1B4087340031C1DD /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainWindowController.swift; path = Windows/MainWindowController.swift; sourceTree = "<group>"; };
+		4DC0DE1B1B4087340031C1DD /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindowController.xib; path = Windows/MainWindowController.xib; sourceTree = "<group>"; };
+		4DC0DE211B408C2F0031C1DD /* DateConverter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "DateConverter-Bridging-Header.h"; path = "Supporting Files/DateConverter-Bridging-Header.h"; sourceTree = "<group>"; };
+		4DC0DE221B408C300031C1DD /* dteConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dteConverter.h; path = Objects/dteConverter.h; sourceTree = "<group>"; };
+		4DC0DE231B408C300031C1DD /* dteConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = dteConverter.m; path = Objects/dteConverter.m; sourceTree = "<group>"; };
+		4DC1D3581B40B14900837C2F /* VBCircle016.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VBCircle016.png; path = "Supporting Files/Images/VBCircle016.png"; sourceTree = "<group>"; };
+		4DC1D3591B40B14900837C2F /* VBCircle032.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VBCircle032.png; path = "Supporting Files/Images/VBCircle032.png"; sourceTree = "<group>"; };
+		4DC1D35A1B40B14900837C2F /* VBCircle064.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VBCircle064.png; path = "Supporting Files/Images/VBCircle064.png"; sourceTree = "<group>"; };
+		4DC1D35B1B40B14900837C2F /* VBCircle128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VBCircle128.png; path = "Supporting Files/Images/VBCircle128.png"; sourceTree = "<group>"; };
+		4DC1D35C1B40B14900837C2F /* VBCircle256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VBCircle256.png; path = "Supporting Files/Images/VBCircle256.png"; sourceTree = "<group>"; };
+		4DC1D35D1B40B14900837C2F /* VBCircle512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VBCircle512.png; path = "Supporting Files/Images/VBCircle512.png"; sourceTree = "<group>"; };
+		4DF820061B40DD5800EF430E /* FalloutVaultLogo016.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FalloutVaultLogo016.png; path = "Supporting Files/Images/FalloutVaultLogo016.png"; sourceTree = "<group>"; };
+		4DF820071B40DD5800EF430E /* FalloutVaultLogo032.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FalloutVaultLogo032.png; path = "Supporting Files/Images/FalloutVaultLogo032.png"; sourceTree = "<group>"; };
+		4DF820081B40DD5800EF430E /* FalloutVaultLogo064.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FalloutVaultLogo064.png; path = "Supporting Files/Images/FalloutVaultLogo064.png"; sourceTree = "<group>"; };
+		4DF820091B40DD5800EF430E /* FalloutVaultLogo128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FalloutVaultLogo128.png; path = "Supporting Files/Images/FalloutVaultLogo128.png"; sourceTree = "<group>"; };
+		4DF8200A1B40DD5800EF430E /* FalloutVaultLogo256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FalloutVaultLogo256.png; path = "Supporting Files/Images/FalloutVaultLogo256.png"; sourceTree = "<group>"; };
+		4DF8200B1B40DD5800EF430E /* FalloutVaultLogo512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FalloutVaultLogo512.png; path = "Supporting Files/Images/FalloutVaultLogo512.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DC0DDF61B4086FC0031C1DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC0DE061B4086FC0031C1DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DA144681B42056B00C9D715 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				4DC0DE221B408C300031C1DD /* dteConverter.h */,
+				4DC0DE231B408C300031C1DD /* dteConverter.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		4DA144691B4205F900C9D715 /* Windows */ = {
+			isa = PBXGroup;
+			children = (
+				4DC0DE1A1B4087340031C1DD /* MainWindowController.swift */,
+				4DC0DE1B1B4087340031C1DD /* MainWindowController.xib */,
+			);
+			name = Windows;
+			sourceTree = "<group>";
+		};
+		4DC0DDF01B4086FC0031C1DD = {
+			isa = PBXGroup;
+			children = (
+				4DC0DDFB1B4086FC0031C1DD /* DateConverter */,
+				4DC0DE0C1B4086FC0031C1DD /* DateConverterTests */,
+				4DC0DDFA1B4086FC0031C1DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DC0DDFA1B4086FC0031C1DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DC0DDF91B4086FC0031C1DD /* DateConverter.app */,
+				4DC0DE091B4086FC0031C1DD /* DateConverterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DC0DDFB1B4086FC0031C1DD /* DateConverter */ = {
+			isa = PBXGroup;
+			children = (
+				4DA144691B4205F900C9D715 /* Windows */,
+				4DA144681B42056B00C9D715 /* Objects */,
+				4DC0DDFE1B4086FC0031C1DD /* AppDelegate.swift */,
+				4DC0DE001B4086FC0031C1DD /* Images.xcassets */,
+				4DC0DE021B4086FC0031C1DD /* MainMenu.xib */,
+				4DC0DDFC1B4086FC0031C1DD /* Supporting Files */,
+			);
+			path = DateConverter;
+			sourceTree = "<group>";
+		};
+		4DC0DDFC1B4086FC0031C1DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DC0DE211B408C2F0031C1DD /* DateConverter-Bridging-Header.h */,
+				4DEF2AE51B40AEC10025A3F2 /* Images */,
+				4DC0DDFD1B4086FC0031C1DD /* Info.plist */,
+				4D8D6D7D1B62BE5F0098F391 /* Version Tracking Notes.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DC0DE0C1B4086FC0031C1DD /* DateConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DC0DE0F1B4086FC0031C1DD /* DateConverterTests.swift */,
+				4DC0DE0D1B4086FC0031C1DD /* Supporting Files */,
+			);
+			path = DateConverterTests;
+			sourceTree = "<group>";
+		};
+		4DC0DE0D1B4086FC0031C1DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DC0DE0E1B4086FC0031C1DD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DEF2AE51B40AEC10025A3F2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4DA958571B40E264003D0342 /* VBCircle.icns */,
+				4DA958551B40E254003D0342 /* FalloutVaultLogo.icns */,
+				4DF820061B40DD5800EF430E /* FalloutVaultLogo016.png */,
+				4DF820071B40DD5800EF430E /* FalloutVaultLogo032.png */,
+				4DF820081B40DD5800EF430E /* FalloutVaultLogo064.png */,
+				4DF820091B40DD5800EF430E /* FalloutVaultLogo128.png */,
+				4DF8200A1B40DD5800EF430E /* FalloutVaultLogo256.png */,
+				4DF8200B1B40DD5800EF430E /* FalloutVaultLogo512.png */,
+				4DC1D3581B40B14900837C2F /* VBCircle016.png */,
+				4DC1D3591B40B14900837C2F /* VBCircle032.png */,
+				4DC1D35A1B40B14900837C2F /* VBCircle064.png */,
+				4DC1D35B1B40B14900837C2F /* VBCircle128.png */,
+				4DC1D35C1B40B14900837C2F /* VBCircle256.png */,
+				4DC1D35D1B40B14900837C2F /* VBCircle512.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DC0DDF81B4086FC0031C1DD /* DateConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DC0DE131B4086FC0031C1DD /* Build configuration list for PBXNativeTarget "DateConverter" */;
+			buildPhases = (
+				4DC0DDF51B4086FC0031C1DD /* Sources */,
+				4DC0DDF61B4086FC0031C1DD /* Frameworks */,
+				4DC0DDF71B4086FC0031C1DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DateConverter;
+			productName = DateConverter;
+			productReference = 4DC0DDF91B4086FC0031C1DD /* DateConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DC0DE081B4086FC0031C1DD /* DateConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DC0DE161B4086FC0031C1DD /* Build configuration list for PBXNativeTarget "DateConverterTests" */;
+			buildPhases = (
+				4DC0DE051B4086FC0031C1DD /* Sources */,
+				4DC0DE061B4086FC0031C1DD /* Frameworks */,
+				4DC0DE071B4086FC0031C1DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DC0DE0B1B4086FC0031C1DD /* PBXTargetDependency */,
+			);
+			name = DateConverterTests;
+			productName = DateConverterTests;
+			productReference = 4DC0DE091B4086FC0031C1DD /* DateConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DC0DDF11B4086FC0031C1DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = PsychoCoderMonkey;
+				TargetAttributes = {
+					4DC0DDF81B4086FC0031C1DD = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					4DC0DE081B4086FC0031C1DD = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 4DC0DDF81B4086FC0031C1DD;
+					};
+				};
+			};
+			buildConfigurationList = 4DC0DDF41B4086FC0031C1DD /* Build configuration list for PBXProject "DateConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DC0DDF01B4086FC0031C1DD;
+			productRefGroup = 4DC0DDFA1B4086FC0031C1DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DC0DDF81B4086FC0031C1DD /* DateConverter */,
+				4DC0DE081B4086FC0031C1DD /* DateConverterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DC0DDF71B4086FC0031C1DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF8200E1B40DD5800EF430E /* FalloutVaultLogo064.png in Resources */,
+				4DC0DE011B4086FC0031C1DD /* Images.xcassets in Resources */,
+				4D8D6D7E1B62BE5F0098F391 /* Version Tracking Notes.rtf in Resources */,
+				4DF8200F1B40DD5800EF430E /* FalloutVaultLogo128.png in Resources */,
+				4DF820101B40DD5800EF430E /* FalloutVaultLogo256.png in Resources */,
+				4DA958561B40E254003D0342 /* FalloutVaultLogo.icns in Resources */,
+				4DC1D3621B40B14900837C2F /* VBCircle256.png in Resources */,
+				4DA958581B40E264003D0342 /* VBCircle.icns in Resources */,
+				4DC0DE1D1B4087340031C1DD /* MainWindowController.xib in Resources */,
+				4DC1D3601B40B14900837C2F /* VBCircle064.png in Resources */,
+				4DC1D35F1B40B14900837C2F /* VBCircle032.png in Resources */,
+				4DF8200C1B40DD5800EF430E /* FalloutVaultLogo016.png in Resources */,
+				4DC1D3631B40B14900837C2F /* VBCircle512.png in Resources */,
+				4DC0DE041B4086FC0031C1DD /* MainMenu.xib in Resources */,
+				4DC1D35E1B40B14900837C2F /* VBCircle016.png in Resources */,
+				4DC1D3611B40B14900837C2F /* VBCircle128.png in Resources */,
+				4DF8200D1B40DD5800EF430E /* FalloutVaultLogo032.png in Resources */,
+				4DF820111B40DD5800EF430E /* FalloutVaultLogo512.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC0DE071B4086FC0031C1DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DC0DDF51B4086FC0031C1DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC0DE241B408C300031C1DD /* dteConverter.m in Sources */,
+				4DC0DE1C1B4087340031C1DD /* MainWindowController.swift in Sources */,
+				4DC0DDFF1B4086FC0031C1DD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC0DE051B4086FC0031C1DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC0DE101B4086FC0031C1DD /* DateConverterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DC0DE0B1B4086FC0031C1DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DC0DDF81B4086FC0031C1DD /* DateConverter */;
+			targetProxy = 4DC0DE0A1B4086FC0031C1DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DC0DE021B4086FC0031C1DD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DC0DE031B4086FC0031C1DD /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DC0DE111B4086FC0031C1DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DC0DE121B4086FC0031C1DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4DC0DE141B4086FC0031C1DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/DateConverter/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/DateConverter/Supporting Files/DateConverter-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DC0DE151B4086FC0031C1DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/DateConverter/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/DateConverter/Supporting Files/DateConverter-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		4DC0DE171B4086FC0031C1DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DateConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DateConverter.app/Contents/MacOS/DateConverter";
+			};
+			name = Debug;
+		};
+		4DC0DE181B4086FC0031C1DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DateConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DateConverter.app/Contents/MacOS/DateConverter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DC0DDF41B4086FC0031C1DD /* Build configuration list for PBXProject "DateConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC0DE111B4086FC0031C1DD /* Debug */,
+				4DC0DE121B4086FC0031C1DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DC0DE131B4086FC0031C1DD /* Build configuration list for PBXNativeTarget "DateConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC0DE141B4086FC0031C1DD /* Debug */,
+				4DC0DE151B4086FC0031C1DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DC0DE161B4086FC0031C1DD /* Build configuration list for PBXNativeTarget "DateConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC0DE171B4086FC0031C1DD /* Debug */,
+				4DC0DE181B4086FC0031C1DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DC0DDF11B4086FC0031C1DD /* Project object */;
+}
