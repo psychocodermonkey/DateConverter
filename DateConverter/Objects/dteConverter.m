@@ -494,23 +494,17 @@
   bool isLeap = false;
   
   if (_holdDate) {
-    // This is an example of one way to determine if a year is a leap year
-
-    //- (BOOL)isYearLeapYear:(NSDate *) aDate {
+    // Get a date formatter object for us to extract the year portion of the date
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     
-        // Extract the year portion from the year
-    //  NSInteger year = [self yearFromDate:aDate];
+    // Specify the year portion of the date field
+    dateFormatter.dateFormat = @"yyyy";
     
-        // This is the formula for determining if a year is a leap year
-    //  return (( year%100 != 0) && (year%4 == 0)) || year%400 == 0;
-    //}
+    // Get the year from the hold date that is previously set
+    NSInteger year = [[dateFormatter stringFromDate:_holdDate] integerValue];
     
-    //- (NSInteger)yearFromDate:(NSDate *)aDate {
-    //  NSDateFormatter *dateFormatter = [NSDateFormatter new];
-    //  dateFormatter.dateFormat = @"yyyy";
-    //  NSInteger year = [[dateFormatter stringFromDate:aDate] integerValue];
-    //  return year;
-    //}
+    // This formula decides if a year is a leap year or not
+    isLeap = ((year % 100 !=0) && (year % 4 == 0)) || year % 400 ==0;
   }
   
   return isLeap;
@@ -526,6 +520,19 @@
   
   bool isLeap = false;
   
+  if (dte) {
+    // Get a date formatter object for us to extract the year portion of the date
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    
+    // Specify the year portion of the date field
+    dateFormatter.dateFormat = @"yyyy";
+    
+    // Get the year from the hold date that is previously set
+    NSInteger year = [[dateFormatter stringFromDate:dte] integerValue];
+    
+    // This formula decides if a year is a leap year or not
+    isLeap = ((year % 100 !=0) && (year % 4 == 0)) || year % 400 ==0;
+  }
   return isLeap;
   
 }
