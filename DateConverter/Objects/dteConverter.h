@@ -55,5 +55,10 @@
 // Set the seperator to use for the date with seperators
 -(bool)setDateSeperator:(NSString *)sprtr;
 
-// TODO: Add bool return value to see say if a date is a leap year
+// Return if the year that is set for the object is a leap year
+-(bool)isLeapYear;
+
+// Return if the year that is passed is a leap year or not
+-(bool)isLeapYear:(NSDate *)dte;
+
 @end

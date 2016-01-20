@@ -484,4 +484,48 @@
   return isValid;
 }
 
+/*------------------------------------------------------------------------------*
+ | Return if the set date for the object is a leap year or not
+ |     Takes: Nothing
+ |   Returns: True if the set year is a leap year, false if it is not
+ *------------------------------------------------------------------------------*/
+-(bool)isLeapYear {
+  
+  bool isLeap = false;
+  
+  if (_holdDate) {
+    // This is an example of one way to determine if a year is a leap year
+
+    //- (BOOL)isYearLeapYear:(NSDate *) aDate {
+    
+        // Extract the year portion from the year
+    //  NSInteger year = [self yearFromDate:aDate];
+    
+        // This is the formula for determining if a year is a leap year
+    //  return (( year%100 != 0) && (year%4 == 0)) || year%400 == 0;
+    //}
+    
+    //- (NSInteger)yearFromDate:(NSDate *)aDate {
+    //  NSDateFormatter *dateFormatter = [NSDateFormatter new];
+    //  dateFormatter.dateFormat = @"yyyy";
+    //  NSInteger year = [[dateFormatter stringFromDate:aDate] integerValue];
+    //  return year;
+    //}
+  }
+  
+  return isLeap;
+  
+}
+
+/*------------------------------------------------------------------------------*
+ | Return if the passed date is a leap year or not
+ |     Takes: Date as NSDATE
+ |   Returns: True if the set year is a leap year, false if it is not
+ *------------------------------------------------------------------------------*/
+-(bool)isLeapYear:(NSDate *)dte {
+  
+  return false;
+  
+}
+
 @end
