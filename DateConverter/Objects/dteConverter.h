@@ -6,7 +6,7 @@
  |           File: dteConverter.h
  | Required Files: dteConverter.m
  |   Initial Date: 2014.12.01
- |    Last Update: 2016.01.16
+ |    Last Update: 2016.01.19
  |        Version: 1.0.0
  +-------------------------------------------------------------------------------
  | Caveats: Will match Microsoft Excel. Since 02/29/1900 isn't valid, everything
