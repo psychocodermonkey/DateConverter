@@ -136,6 +136,7 @@ class MainWindowController: NSWindowController {
             stringDate = NSString(format: dteModule.returnFormatSpecifierFor(), dateValue) as String
             
             // TODO: Handle added functionality of showing if a year is a leap year or not. Add indicator to window as well.
+            // TODO: Make this show the Day of the week spelled out. Maybe done with NSDATE, need to research.
             
           // Otherwise something else happend in the object
           } else {

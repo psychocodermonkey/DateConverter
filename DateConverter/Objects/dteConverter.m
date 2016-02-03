@@ -484,6 +484,7 @@
   return isValid;
 }
 
+// TODO: Test the leap year return
 /*------------------------------------------------------------------------------*
  | Return if the set date for the object is a leap year or not
  |     Takes: Nothing
