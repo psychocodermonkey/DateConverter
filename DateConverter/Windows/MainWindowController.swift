@@ -43,13 +43,13 @@ class MainWindowController: NSWindowController {
     selSeperator.selectItemAtIndex(0)
     
     // Make sure that the window stays on top of other windows
-    window?.level = Int(CGWindowLevelForKey(kCGMaximumWindowLevelKey+1))
+    window?.level = Int(CGWindowLevelForKey(CGWindowLevelKey.MaximumWindowLevelKey))
   }
   
   // MARK: Input Selection box action
   @IBAction func selInputOnUpdate(sender: NSComboBox) {
     // Get a date object to be able to use
-    var dteModule = dteConverter()
+    let dteModule = dteConverter()
     
     // Clear out the string that's sitting in the input text box
     txtInputValue.stringValue = ""
@@ -64,7 +64,7 @@ class MainWindowController: NSWindowController {
   // MARK: Output selection box action
   @IBAction func selOutputOnUpdate(sender: NSComboBox) {
     // Get a date object to be able to use
-    var dteModule = dteConverter()
+    let dteModule = dteConverter()
     
     // Set the seperator from the combo box
     dteModule.setDateSeperator(selSeperator.stringValue)
@@ -99,11 +99,11 @@ class MainWindowController: NSWindowController {
     }
     
     // Get a date object to be able to use
-    var dteModule = dteConverter()
+    let dteModule = dteConverter()
     
     // Set the seperator from the combo box
     dteModule.setDateSeperator(selSeperator.stringValue)    
-    
+
     // If setting the date objects starting date and format is successful, do the output items
     if dteModule.setDate(txtInputValue.stringValue as String, andFormat: selInputFormat.stringValue as String) {
       
@@ -127,7 +127,7 @@ class MainWindowController: NSWindowController {
         if swtSeperatorsSwitch.selectedSegment == 0 {
           
           // Perform the date conversion in the object
-          var dateValue = dteModule.returnDateForFormat(selOutputFormat.stringValue)
+          let dateValue = dteModule.returnDateForFormat(selOutputFormat.stringValue)
           
           // Pad the leading zeros for the date formats that have specified lengths
           if dteModule.returnFormatMaskLengthFor(selOutputFormat.stringValue) != 0 {
