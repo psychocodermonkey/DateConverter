@@ -132,7 +132,6 @@
     [dateFormatter setDateFormat:[self returnFormatMaskFor:@"ISO"]];
     startDate = [dateFormatter dateFromString:@"19000101"];
     
-    // TODO: Update to not use depreciated stuff
     // Build a calendar object  so we can find the number of days between the two dates
     NSCalendar *curCalendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
     
@@ -200,8 +199,7 @@
     NSDate *startDate = [[NSDate alloc] init];
     [dateFormatter setDateFormat:[self returnFormatMaskFor:@"ISO"]];
     startDate = [dateFormatter dateFromString:@"19000101"];
-    
-    // TODO: Update to not use depreciated stuff
+
     // Build a calendar object  so we can find the number of days between the two dates
     NSCalendar *curCalendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
     
@@ -259,8 +257,7 @@
     NSDate *startDate = [[NSDate alloc] init];
     [dateFormatter setDateFormat:[self returnFormatMaskFor:@"ISO"]];
     startDate = [dateFormatter dateFromString:@"19000101"];
-    
-    // TODO: Update to not use depreciated stuff
+
     // Build a calendar object  so we can find the number of days between the two dates
     NSCalendar *curCalendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
 
